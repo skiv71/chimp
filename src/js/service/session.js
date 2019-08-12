@@ -1,2 +1,8 @@
-export default new Map()
-    .set('state', {})
+export default (() => {
+
+    var map = new Map()
+    map.set('state', {})
+
+    return map
+
+})()

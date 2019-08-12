@@ -31,7 +31,7 @@
                 if (!state.name)
                     state.name = 'view/main'
                 setTimeout(() => {
-                    state.name = 'Jolly Rodger'
+                    state.name = 'Jolly Roger'
                     events.$emit('name', state.name)
                 }, 3000)
                 this.state = state
@@ -45,5 +45,6 @@
             methods: {
             }
         }
+
     })() 
 </script>
